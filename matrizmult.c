@@ -109,13 +109,8 @@ void prodMatrizV2(double *pA, double *pB, double *pC, int f1, int c1, int c2) {
         for(int j = 0; j < c2; j++) {
             double temp = 0.0;
             for(int k = 0; k < c1; k++) {
-                // Testigo
-//                printf("(A[%d][%d])%lf * (B[%d][%d])%lf = (C[%d][%d])%lf\n", i,k,*(pA + c1*i + k), 
-//                    k,j,*(pB + c1*k + j), 
-//                    i,j,(*(pA + c1*i + k)) * (*(pB + c1*k + j))); 
-                //
+                // OJO! --> Corregir el error!
                 temp += (*(pA + c1*i + k)) * (*(pB + c1*k + j));
-                //temp += A[c1*i + k] * B[j + c1*k];
             }
             *(pC + c2*i + j) = temp;
         }
