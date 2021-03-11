@@ -1,0 +1,17 @@
+# =============================================== #
+# == Software para hardware - Marzo 10 de 2021 == #
+# =============================================== #
+#
+# (1) Manejo básico de archivos (lectura, escritura)
+# (2) Manejo básico de cadenas de caracteres "strings", y string.h (algunas funcionalidades)
+# (3) Repaso de estrcuturas
+# (4) Listas encadenadas
+# (5) Manejo dinámico de memoria
+# (6) Manejo de Git, continuación
+#
+# Ejericio --> "crear" una pequeña de base de datos de estudiantes, y manipulación 
+# básica sobre la misma
+#
+# Leer datos desde la entrada estandar "stdin" (nombre, apellido, ID, carrera, semestre, espacio académico,
+# código, nota)
+# Construir un archivo *.csv (comma separated values) 
